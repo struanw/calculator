@@ -1,0 +1,27 @@
+
+
+
+p {
+    padding-top: 10px;
+    text-transform: uppercase;
+    color: black;
+    font-family: Helvetica;
+    font-size: 1em;
+    background-color: white;
+    padding: 15px;
+}
+
+.calculator .row button {
+    width: 40px;
+    height: 30px;
+    border: 1px solid grey;
+    border-top: 2px solid lighten(grey, 20);
+    color: black;
+    font-size: 1.4em;
+    border-radius: 10%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 8px;
+
+
+}

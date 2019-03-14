@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+   
+    <div class="calculator">
+        <!-- calculator screen-->
+
+        <p id='display'></p>
+
+        
+        <div class="row">
+            <button class="ctrl" onclick="buttonClicked('clear')">AC</button>
+            <button ></button> <!--need empty space to align buttons-->
+            <button ></button>
+            <button id="divide" onclick="buttonClicked('/')">÷</button>
+        </div>
+
+    
+        <div class="row">
+            <button id="seven" onclick="buttonClicked(7)">7</button>
+            <button id="eight" onclick="buttonClicked(8)">8</button>
+            <button id="nine" onclick="buttonClicked(9)">9</button>
+            <button id="multiply" onclick="buttonClicked('*')">x</button>
+        </div>
+    
+        
+        <div class="row">
+            <button id="four" onclick="buttonClicked(4)">4</button>
+            <button id="five" onclick="buttonClicked(5)">5</button>
+            <button id="six" onclick="buttonClicked(6)">6</button>
+            <button id="subtract" onclick="buttonClicked('-')">-</button>
+        </div>
+      
+
+        <div class="row">
+            <button id="one" onclick="buttonClicked(1)">1</button>
+            <button id="two" onclick="buttonClicked(2)">2</button>
+            <button id="three" onclick="buttonClicked(3)">3</button>
+            <button id ="add" onclick="buttonClicked('+')">+</button>
+        </div>
+    
+        <div class="row">
+            <button id="zero" onclick="buttonClicked(0)">0</button>
+            <button id="decimal" onclick="buttonClicked('.')">.</button>
+            <button id="equals" onclick="buttonClicked('=')">=</button>
+        </div>
+    </div>
+
+<script src="calculator.js"></script>
+</body>
+</html>
